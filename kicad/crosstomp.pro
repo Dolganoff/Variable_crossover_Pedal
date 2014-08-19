@@ -1,4 +1,4 @@
-update=08/08/2014 20:01:43
+update=08/08/2014 22:53:19
 version=1
 last_client=kicad
 [cvpcb]
@@ -32,7 +32,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=
+LibDir=../../Kicad
 NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
