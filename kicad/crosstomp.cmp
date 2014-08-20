@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-06 BZR 5059)-product   date = 09/08/2014 00:02:47
+Cmp-Mod V01 Created by Cvpcb (2014-08-06 BZR 5059)-product   date = 20/08/2014 21:24:01
 
 BeginCmp
 TimeStamp = /53E4C85F;
@@ -8,17 +8,10 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53E57813;
+TimeStamp = /53F56504;
 Reference = C2;
-ValeurCmp = 0.1 uF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53E57BC0;
-Reference = C3;
-ValeurCmp = 0.1 uF;
-IdModule  = SMD_Packages:SMD-0805;
+ValeurCmp = 10 uF;
+IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
 BeginCmp
@@ -31,7 +24,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53E54AD1;
 Reference = C5;
-ValeurCmp = 10 uF;
+ValeurCmp = 1 uF;
 IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
@@ -274,24 +267,38 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /53E68022;
-Reference = SW1;
-ValeurCmp = Phase;
-IdModule  = Connect:SIL-9;
+TimeStamp = /53F4FAFD;
+Reference = SW1.1;
+ValeurCmp = SW-SPDT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /53E53D97;
+TimeStamp = /53F4F3E8;
+Reference = SW1.2;
+ValeurCmp = SW-SPDT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F4F40F;
+Reference = SW1.3;
+ValeurCmp = SW-SPDT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F52873;
 Reference = U1;
-ValeurCmp = TLE2426;
-IdModule  = Discret:TO92;
+ValeurCmp = TLE2426-SOIC;
+IdModule  = Housings_SOIC:SOIC-8_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E4B77B;
 Reference = U2;
 ValeurCmp = TLC274;
-IdModule  = Housings_SOIC:SOIC-8_N;
+IdModule  = SMD_Packages:SOIC-14_N;
 EndCmp
 
 BeginCmp
